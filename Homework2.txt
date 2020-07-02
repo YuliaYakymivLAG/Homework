@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+<title>National Hockey League</title>
+</head>
+<body>
+
+		<header>
+    <div>
+				<img width="200px"  src="https://www-league.nhlstatic.com/images/logos/league-light/133-com.svg" >
+			</div>
+      <nav>
+	<ul>
+		<li><a href="https://www.nhl.com/scores">Scores</a></li>
+		<li><a href="https://www.nhl.com/news">News</a></li>
+		<li><a href="https://www.nhl.com/video">Video</a></li>
+		<li><a href="https://www.nhl.com/video">Standings</a></li>
+		<li><a href="http://www.nhl.com/stats/">Stats</a></li>
+		<li><a href="https://www.nhl.com/schedule">Schedule</a></li>
+		<li><a href="https://www.nhl.com/player">Players</a></li>
+		<li><a href="https://www.nhl.com/info/mobile-app">App</a></li>
+		<li><a href="https://www.nhl.com/tickets">Tickets</a></li>
+		<li><a href="https://www.nhl.com/fans/fantasy-hockey">Fantasy</a></li>
+		<li><a href="https://shop.international.nhl.com/stores/nhl/en?portal=DOWR8775&CMP=PSC-DOWR8775">Shop</a></li>
+		<li><a href="https://www.nhl.com/info/teams">Teams</a></li>
+		<li><a href="https://www.nhl.com/info/teams">NHL.TV</a></li>
+	</ul>
+  </nav>
+  
+<p> Choose language </p>
+ 
+<select name="Chooselanguage">
+ <option value=En>ENGLISH</option>
+   <option value=UK>УКРАЇНСЬКА</option>
+    <option value=FR>FRANÇAIS</option>  
+    </select>
+        </nav>
+  </header>
+  
+ <asaid>
+ <section>
+   <article>
+     
+   </article>
+ </section>
+   <div>
+   <h3> Headlines </h3>
+   
+           	<ul>
+            		<li><a href="https://www.nhl.com/news/canucks-quinn-hughes-skates-in-phase-2-of-return-to-play-plan/c-317303024">Prospect Stuetzle reacts to Draft Lottery">Canucks' Hughes 'strong as I've ever been'</a> </li>
+            		<li><a href="https://www.nhl.com/news/nhl-statement-phase-2-testing/c-317289726">NHL statement on Phase 2 testing</a> </li>
+        
+            		<li><a href="https://www.nhl.com/news/canucks-quinn-hughes-skates-in-phase-2-of-return-to-play-plan/c-317303024">Prospect Stuetzle reacts to Draft Lottery</a> </li>
+            		<li><a href="https://www.nhl.com/news/nhl-draft-class-discusses-central-scouting-final-rankings/c-306787994?tid=277764372">Soucy ready to return from injury for Wild</a> </li>
+            		<li><a href="https://www.nhl.com/news/mikko-rantanen-skates-with-avalanche-for-first-time-in-phase-2/c-317292452">Rantanen returns to ice with Avalanche</a> </li>
+            		<li><a href="https://www.nhl.com/news/blues-ryan-oreilly-skates-in-phase-2-of-return-to-play/c-317293626">O'Reilly, Blues up for 'unique' challenge</a> </li>
+            		<li><a href="https://www.nhl.com/news/coyotes-phil-kessel-eager-for-stanley-cup-qualifier/c-317302008">Kessel eager to rebound in Qualifier</a> </li>
+            		<li><a href="https://www.nhl.com/news/new-york-rangers-coach-david-quinn-undecided-on-starting-goalie/c-317307884">Rangers to decide starting goalie in camp</a> </li>
+           		</ul>
+           		</ul>
+   </div>
+    </article>
+    <article>
+   <div>
+   
+   <h3> NHL Pride </h3>
+   
+           	<ul>
+            		<li> <a href="#">NHLN: NYC Gay Hockey Association
+</a> </li>
+                <li> <a href="#">Montreal Dragons league inclusive
+</a> </li>
+                <li> <a href="#">Pittsburgh marriage built on love of Penguins</a> </li>
+                </ul>
+                </div>
+                </article>
+ </asaid> 
+  
+  <main>
+    <section>
+      <article>
+        <h2> Super 16: Top defensemen playing in Stanley Cup Qualifiers
+        </h2>
+        <img width="500" src="https://nhl.bamcontent.com/images/photos/317309038/1200x630/cut.jpg">
+       <div>
+        <p>
+       The NHL Return to Play Plan was announced May 26. The League moved into Phase 2 of the plan with the opening of training facilities for small-group workouts June 8. Phase 3, the opening of training camps, is scheduled for July 10. This week, the Super 16 covers the top defensemen of the 24 teams that will play in the Stanley Cup Qualifiers.
+ </p>
+ <p>
+Victor Hedman of the Tampa Bay Lightning was ranked first by seven of 13 voters as the best defensemen among the 24 teams that are part of the Return to Play Plan.
+</p>
+<p>
+Hedman was ranked No. 2 by the other six voters, which gave him enough points to finish at the top of the Super 16, eight points ahead of Roman Josi of the Nashville Predators, who was ranked No. 1 by five voters. John Carlson of the Washington Capitals received the other No. 1 vote.
+       </p>
+       </div> 
+        </article>
+      <article>
+      <h2>
+      Jets training camp preview
+      </h2> 
+      <img width="500" src="https://nhl.bamcontent.com/images/photos/317300560/1136x640/cut.jpg"> 
+      <div>
+      <p>
+      With training camps set to begin July 10 as part of Phase 3 of the NHL Return to Play Plan, NHL.com is taking a closer look at each of the 24 teams in the Stanley Cup Qualifiers.
+      </p>
+<p>
+Today, the Winnipeg Jets.
+</p>
+<p>
+The Winnipeg Jets were 37-28-6 (.563 points percentage) in the regular season and will enter the Stanley Cup Qualifiers as the No. 9 seed in the Western Conference. They will play the No. 8 seed, the Calgary Flames (36-27-7, .564), in one of eight best-of-5 series.
+</p>
+<p>
+The Jets will be trying to make the Stanley Cup Playoffs for a third straight season. They acquired defenseman Dylan DeMelo in a trade with the Ottawa Senators on Feb. 18 and center Cody Eakin in a trade with the Vegas Golden Knights on Feb. 21 and were trending in a good direction when the NHL season was paused March 12 due to concerns surrounding the coronavirus. Winnipeg was 12-5-2 since Feb. 1 and won its last four games before the pause.
+</p>
+     
+      </div>
+    </section>
+  </main>
+  
+  <aside> 
+ 
+    </h3>
+   <article>
+  <h3>
+  Now Trending
+  </h3>
+    	<ul>
+            		<li> <a href="#">Top 10 Draft prospects
+
+</a> </li>
+                <li> <a href="#">Podcast: X-factors
+
+</a> </li>
+                <li> <a href="#">Draft talk: Weekes</a> </li>
+                </ul>
+</article>
+  <article>
+    <h3>Follow NHL<h5>
+		<a href=""><img src="https://www-league.nhlstatic.com/images/social-icons/twitter.svg" width="20" >Twitter</a><br>
+		<a href=""><img src="https://www-league.nhlstatic.com/images/social-icons/facebook.svg" width="20" >Facebook</a><br>
+		<a href=""><img src="https://www-league.nhlstatic.com/images/social-icons/instagram.svg" width="20">Instagram</a><br>
+		<a href=""><img src="https://www-league.nhlstatic.com/images/social-icons/youtube.svg" width="20">YouTube</a><br>
+		<a href=""><img src="https://www-league.nhlstatic.com/images/social-icons/snapchat.svg" width="20" >Snapchat</a><br>
+		<a href=""><img src="https://www-league.nhlstatic.com/images/social-icons/giphy.svg" width="20">GIPHY</a><br>
+		<a href=""><img src="https://www-league.nhlstatic.com/images/social-icons/tiktok.svg" width="20">TikTok</a><br>
+		<a href=""><img src="https://www-league.nhlstatic.com/images/social-icons/twitch.svg" width="20" >Twitch</a><br>
+		<a href=""><img src="https://www-league.nhlstatic.com/images/social-icons/newsletter.svg" width="20" >Newsletter</a><br>
+		<a href=""><img src="https://www-league.nhlstatic.com/images/social-icons/podcasts.svg" width="20">Podcast</a><br>
+</article>
+   <a href="#"><button>Calendar</button></a>
+  
+   </h1>
+  </aside>
+  <footer>
+  
+		<hr>
+    <div>
+	         <ul>
+	            <li><a href="https://www.nhl.com/info/terms-of-service" >NHL.com Terms of Service</a></li>
+	            <li><a href="https://www.nhl.com/info/privacy-policy">NHL.com Privacy Policy</a></li>
+	            <li><a href="https://www.nhl.com/info/frequently-asked-questions">FAQ</a></li>
+				<li><a href="https://www.nhl.com/info/contact-us">Contact Us</a></li>
+	            <li><a href="https://www.nhl.com/info/copyright-policy">Copyright Policy</a></li>
+	          </ul>
+		</div>
+		
+		
+		
+		<div>
+			<img src="https://www-league.nhlstatic.com/images/logos/league-dark/133.svg" width="50px">
+			
+			<article> 
+		NHL.com is the official web site of the National Hockey League. NHL, the NHL Shield, the word mark and image of the Stanley Cup, the Stanley Cup Playoffs logo, the Stanley Cup Final logo, Center Ice name and logo, NHL Conference logos, NHL Winter Classic name, and The Biggest Assist Happens Off The Ice are registered trademarks and Stanley Cup Qualifiers name and logo, NHL.TV, Vintage Hockey word mark and logo, The Game Lives Where You Do, NHL Winter Classic logo, NHL Heritage Classic name and logo, NHL Stadium Series name and logo, NHL All-Star logo, NHL Face-Off name and logo, NHL. TV, NHL Premium, NHL After Dark, NHL GameCenter, NHL GameCenter LIVE, NHL Network name and logo, NHL Tonight name and logo, On The Fly, NHL Awards name and logo, NHL Draft name and logo, NHL Mascots, Hockey Fights Cancer, Because It's The Cup, NHL Green name and logo, NHL Vault, Hockey Is For Everyone, NHL Thanksgiving Showdown name and logo, NHL Centennial Classic name and logo, NHL Centennial Season logo, NHL100 Classic name and logo, NHL Global Series name and logo, NHL China Games name and logo, NHL Power Players name and logo, and Don't Miss A Moment are trademarks of the National Hockey League. All NHL logos and marks and NHL team logos and marks depicted herein are the property of the NHL and the respective teams and may not be reproduced without the prior written consent of NHL Enterprises, L.P. © NHL 2019. All Rights Reserved. All NHL team jerseys customized with NHL players' names and numbers are officially licensed by the NHL and the NHLPA. The Zamboni word mark and configuration of the Zamboni ice resurfacing machine are registered trademarks of Frank J. Zamboni & Co., Inc.© Frank J. Zamboni & Co., Inc. 2019. All Rights Reserved. Any other third party trademarks or copyrights are the property of their respective owners. All rights reserved.
+			</article>
+	
+  </footer>
+</body>
+</html>
+  
+  
+</body>
+</html>
