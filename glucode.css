@@ -1,0 +1,409 @@
+            body {
+                background-color: white;
+                margin: 0 auto;
+                padding: 0;
+                overflow: auto;
+                box-sizing: border-box;
+            }
+            
+            .nav {
+                margin: 20px 0;
+                z-index: 101;
+            }
+            
+            .nav ul {
+                margin: 0;
+                padding: 0;
+            }
+            
+            .nav li {
+                margin: 0 5px 10px 0;
+                padding: 0;
+                list-style: none;
+                display: inline-block;
+                *display: inline;
+            }
+            
+            .nav a {
+                padding: 3px 12px;
+                text-decoration: none;
+                color: #c75b5b;
+                line-height: 100%;
+            }
+            
+            .nav a:hover {
+                color: black;
+            }
+            
+            .nav .current a {
+                background: #c75b5b;
+                color: #fff;
+                border-radius: 3px;
+            }
+            
+            .nav.right ul {
+                text-align: right;
+            }
+            
+            .nav.center ul {
+                text-align: center;
+            }
+            
+            @media screen and (max-width: 600px) {
+                .nav {
+                    position: relative;
+                    min-height: 40px;
+                }
+                .nav ul {
+                    width: 180px;
+                    padding: 5px 0;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    border: solid 1px #c75b5b;
+                    background: #FAFAFA url(pictures/hamburger-button-menu.png) no-repeat 10px 11px;
+                    border-radius: 5px;
+                    box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+                }
+                .nav li {
+                    display: none;
+                    margin: 0;
+                }
+                .nav .current {
+                    display: block;
+                }
+                .nav a {
+                    display: block;
+                    padding: 5px 5px 5px 32px;
+                    text-align: left;
+                }
+                .nav .current a {
+                    background: none;
+                    color: #c75b5b;
+                }
+                .nav .current:hover a {
+                    background: none;
+                    color: black;
+                }
+                .nav ul:hover {
+                    background-image: none;
+                }
+                .nav ul:hover li {
+                    display: block;
+                    margin: 0 0 5px;
+                }
+                .nav ul:hover .current {
+                    background: url(pictures/hamburger-button-menu.png) no-repeat 10px 7px;
+                }
+                .nav.right ul {
+                    left: auto;
+                    right: 0;
+                }
+                .nav.center ul {
+                    left: 50%;
+                    margin-left: -90px;
+                }
+            }
+            
+            .header-wrapper {
+                width: 100%;
+                background-color: white;
+                position: fixed;
+                top: 0em;
+            }
+            
+            .container {
+                display: flex;
+                margin-left: 100px;
+                margin-right: 200px;
+                background-color: white;
+            }
+            
+            .container nav {
+                margin-left: 400px;
+            }
+            
+            .logo {
+                height: 30px;
+                margin-left: 100px;
+                margin-top: 20px;
+            }
+            
+            .main-title {
+                background-image: url(./pictures/main-background.jpg);
+                background-position: center;
+                min-height: 700px;
+                background-size: cover;
+                font-size: 30pt;
+                background-repeat: no-repeat;
+            }
+            
+            .main-text {
+                box-sizing: inherit;
+                color: white;
+                font-family: 'Montserrat';
+                margin-left: 100px;
+                position: absolute;
+                bottom: 200px;
+                font-weight: 800px;
+                letter-spacing: 1.1;
+            }
+            
+            .what-we-do {
+                margin-left: 10%;
+                margin-right: 10%;
+                text-align: center;
+            }
+            
+            .what-we-do-title {
+                font-family: 'Montserrat';
+                font-size: 50px;
+                letter-spacing: 1.1px;
+                text-transform: uppercase;
+                color: black;
+                text-align: left;
+                font-family: 'Montserrat';
+            }
+            
+            .what-we-do-text {
+                font-family: 'Montserrat';
+                font-size: 40px;
+                font-weight: 300;
+                line-height: 48px;
+                letter-spacing: 0.8px;
+                text-align: left;
+                color: #9b9b9b;
+            }
+            
+            .items {
+                min-width: 900px;
+                margin: 0 auto;
+                display: flax;
+                text-transform: uppercase;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 1em;
+                font-size: 20px;
+            }
+            
+            .item {
+                display: flex;
+                flex-direction: column;
+                min-height: 50vh;
+                margin-left: 10%;
+                margin-right: 10%;
+                border: none;
+            }
+            
+            .item h1 {
+                font-family: 'Montserrat';
+                font-size: 35px;
+                font-weight: 800;
+                line-height: 40px;
+                letter-spacing: 0.8px;
+            }
+            
+            .item p {
+                font-family: 'Montserrat';
+                font-size: 19px;
+                line-height: 1.71;
+                letter-spacing: 0.4px;
+            }
+            
+            .services {
+                text-align: center;
+            }
+            
+            .button {
+                border-radius: 4px;
+                border: none;
+                margin: 0 auto;
+                font-size: 14px;
+                padding: 10px;
+                width: 200px;
+                cursor: pointer;
+                color: white;
+                background: black;
+                margin-bottom: 20px;
+            }
+            
+            .button span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+            }
+            
+            .button span:after {
+                content: '\27A0';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 1s;
+            }
+            
+            .button:hover span {
+                padding-right: 25px;
+            }
+            
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+            
+            .featured-left {
+                margin-left: 100px;
+            }
+            
+            .feautered-projects {
+                width: 100%;
+                height: 700px;
+                background-image: url(./pictures/featured-projects.png), linear-gradient(290deg, #ffde58, #f4590b);
+                background-size: cover;
+                background-position: center;
+                min-height: 700px;
+                background-repeat: no-repeat;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .featured-left h3 {
+                font-family: 'Montserrat';
+                font-size: 30px;
+                line-height: 68px;
+                letter-spacing: 1.1px;
+                text-align: left;
+                text-transform: uppercase;
+                color: white;
+            }
+            
+            .featured-left div {
+                font-family: 'Montserrat';
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 48px;
+                letter-spacing: 0.8px;
+                text-align: left;
+                color: white;
+            }
+            
+            .featured-left button {
+                background-color: white;
+                color: orange;
+            }
+            
+            .featured-clients {
+                margin-left: 200px;
+                margin-right: 10%;
+                text-align: center;
+                width: 100%;
+            }
+            
+            .featured-clients h1 {
+                font-family: 'Montserrat';
+                font-size: 50px;
+                line-height: 68px;
+                letter-spacing: 1.1px;
+                text-align: left;
+                text-transform: uppercase;
+                color: black;
+            }
+            
+            .featured-clients p {
+                font-family: 'Montserrat';
+                font-size: 40px;
+                font-weight: 300;
+                line-height: 48px;
+                letter-spacing: 0.8px;
+                text-align: left;
+                color: #9b9b9b;
+            }
+            
+            .logos {
+                margin-left: 200px;
+                margin-right: 15%;
+            }
+            
+            .logos img {
+                background-color: WhiteSmoke;
+                height: 150px;
+                border: 10px solid;
+                border-color: white;
+            }
+            
+            .get-in-touch h3 {
+                font-family: 'Montserrat';
+                font-size: 35px;
+                font-weight: 800;
+                line-height: 40px;
+                letter-spacing: 0.8px;
+                text-transform: uppercase;
+            }
+            
+            .get-in-touch p {
+                font-family: 'Montserrat';
+                font-size: 19px;
+                line-height: 1.71;
+                letter-spacing: 0.4px;
+                color: #4A4A4A;
+                font-weight: 300;
+            }
+            
+            .links li {
+                list-style-type: none;
+                display: inline;
+            }
+            
+            .links img {
+                margin-top: 20px;
+                width: 25px;
+            }
+            
+            .footer-left {
+                float: left;
+                margin-left: 10%;
+                font-family: 'Montserrat';
+                font-size: 19px;
+                line-height: 1.71;
+                letter-spacing: 0.4px;
+                color: #4A4A4A;
+                font-weight: 300;
+            }
+            
+            .links {
+                text-align: right;
+            }
+            
+            .footer-right {
+                float: right;
+                margin-right: 10%;
+            }
+            
+            .footer {
+                width: 100%;
+            }
+            
+            .container {
+                margin: 0 auto;
+                max-width: 100%;
+            }
+            
+            .block-setup {
+                text-align: center;
+                box-sizing: border-box;
+            }
+            
+            .get-in-touch .get-content .content {
+                margin: 0 auto;
+            }
+            
+            .get-in-touch {
+                background-color: WhiteSmoke;
+                width: 100%;
+                min-height: 600px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
