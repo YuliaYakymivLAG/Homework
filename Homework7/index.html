@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting students points </title>
+
+</head>
+
+<body>
+    <div align="center">
+        <h1> Перевірка успішності студентів</h1>
+        <h3>Хороші студенти A: 89-100</h3>
+        <h3>Середні студенти B: 65-88</h3>
+        <h3>Слабкі студенти C: 0-64</h3>
+        <br>
+    </div>
+
+    <script>
+        var numberOfGroups = parseInt(prompt("Введіть кількість груп (від 1 до 10)"));
+        var numberOfStudents = 25;;
+
+        var goodPoint = 89;
+        var normPoints = 65;
+
+        var groups = initGroups(numberOfGroups, numberOfStudents);
+        var allStudents = initAllStudents(groups);
+        if (numberOfGroups > 10)(alert("Дані введені некоректно! Введіть число від 1 до 10."));
+        else {
+
+            var goodStudents = [],
+                normStudents = [],
+                badStudents = [];
+            sortingtudentsMarks(allStudents);
+            document.write("<br><h3> Хороші студенти A: </h3><hr>", goodStudents)
+            document.write("<br><h3> Середні студенти B: </h3><hr>", normStudents)
+            document.write("<br><h3> Слабкі студенти C: </h3><hr>", badStudents)
+
+        }
+
+
+        function initGroups(initGroup, initMark) {
+            var result = [];
+            for (let i = 0; i < numberOfGroups; i++) {
+                result[i] = [];
+                for (let j = 0; j < numberOfStudents; j++) {
+                    result[i][j] = (Math.floor(Math.random() * 101));
+                }
+            }
+            return result;
+        }
+
+
+
+        function initAllStudents(allGroups) {
+            var studentsArray = [];
+            studentsArray = [].concat(...groups)
+            return studentsArray;
+        }
+
+
+
+        function sortingtudentsMarks(markStudents) {
+            for (let k = 0; k < allStudents.length; k++) {
+                if (allStudents[k] > goodPoint) {
+                    goodStudents.push(allStudents[k]);
+                } else if (allStudents[k] >= normPoints && allStudents[k] < goodPoint) {
+                    normStudents.push(allStudents[k]);
+                } else {
+                    badStudents.push(allStudents[k]);
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
