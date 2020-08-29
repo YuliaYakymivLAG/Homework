@@ -1,0 +1,47 @@
+.student-card img {
+    width: 60px;
+    height: 60px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 70%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.student-card {
+    padding: 10px;
+}
+
+.student-card:nth-child(even) {
+    background: #eee;
+}
+
+.green-list:nth-child(even) {
+    background: MediumSpringGreen
+}
+
+.green-list:nth-child(odd) {
+    background: PaleGreen
+}
+
+.blue-list:nth-child(even) {
+    background: LightSkyBlue
+}
+
+.blue-list:nth-child(odd) {
+    background: DeepSkyBlue
+}
+
+.pink-list:nth-child(even) {
+    background: MistyRose
+}
+
+.pink-list:nth-child(odd) {
+    background: Pink
+}
+
+li {
+    list-style-type: none;
+}
